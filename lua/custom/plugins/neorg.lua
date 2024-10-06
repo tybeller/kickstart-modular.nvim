@@ -18,6 +18,9 @@ return {
       },
     }
 
+    vim.keymap.set('n', '<leader>n', '', { desc = 'Org [N]otes' })
+    vim.keymap.set('n', '<leader>ni', ':Neorg index<CR>', { desc = '[N]otes [I]ndex' })
+
     vim.wo.foldlevel = 99
     vim.wo.conceallevel = 2
   end,
