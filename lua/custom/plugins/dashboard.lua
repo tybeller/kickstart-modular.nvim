@@ -30,6 +30,19 @@ return {
         mru = { limit = 5 },
       },
     }
+    -- from LazyVim/LazyVim github
+    -- open dashboard after closing lazy
+    if vim.o.filetype == "lazy" then
+      vim.api.nvim_create_autocmd("WinClosed", {
+        pattern = tostring(vim.api.nvim_get_current_win()),
+        once = true,
+        callback = function()
+          vim.schedule(function()
+            vim.api.nvim_exec_autocmds("UIEnter", { group = "dashboard" })
+          end)
+        end,
+      })
+    end
   end,
   dependencies = { { 'nvim-tree/nvim-web-devicons' } },
 }
