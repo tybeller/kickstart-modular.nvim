@@ -64,6 +64,9 @@ vim.opt.scrolloff = 15
 
 -- SPACES RULE TABS SUCK
 vim.opt.expandtab = true
+vim.opt.tabstop = 4 -- Number of spaces a tab counts for
+vim.opt.shiftwidth = 4 -- Number of spaces for autoindent
+vim.opt.softtabstop = 4 -- Number of spaces a tab counts for while editing
 
 -- Disable in-line LSP Diagnostics. Shows Diagonostics only on hover
 -- Disabling diagnostics to avoid LSP_Lines duplication
