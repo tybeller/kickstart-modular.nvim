@@ -1,16 +1,16 @@
-# kickstart-modular.nvim
+# nvim config
 
 ## Introduction
 
-My neovim config. Forked from dam9000/kickstart-modular.nvim
+My neovim config. 
+Forked from dam9000/kickstart-modular.nvim
+
 ## Installation
 
 ### Install Neovim
 
-Kickstart.nvim targets *only* the latest
-['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
-['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
-If you are experiencing issues, please make sure you have the latest versions.
+['stable'](https://github.com/neovim/neovim/releases/tag/stable)
+['nightly'](https://github.com/neovim/neovim/releases/tag/nightly)
 
 ### Install External Dependencies
 
@@ -31,9 +31,6 @@ External Requirements:
 
 
 #### Clone config
-> **NOTE**
-> If following the recommended step above (i.e., forking the repo), replace
-> `dam9000` with `<your_github_username>` in the commands below
 
 <details><summary> Linux and Mac </summary>
 
@@ -48,13 +45,13 @@ git clone https://github.com/tybeller/kickstart-modular.nvim.git "${XDG_CONFIG_H
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/tybeller/kickstart.nvim.git "%localappdata%\nvim"
+git clone https://github.com/tybeller/kickstart-modular.nvim.git "%localappdata%\nvim"
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/tybeller/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone https://github.com/tybeller/kickstart-modular.nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>
