@@ -1,4 +1,4 @@
 return {
-  'tpope/vim-sleuth',
-  lazy = true,
+    'tpope/vim-sleuth',
+    lazy = true,
 }
